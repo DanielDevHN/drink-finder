@@ -1,9 +1,16 @@
 header {
-  background-color: #EC3A49;
+  background-color: #3a81ec;
   color: white;
   text-align: center;
 }
 header h1 {
   font-family: 'Outfit', sans-serif;
   font-weight: 900;
+}
+footer {
+  text-align: center;
+}
+footer p {
+  margin-top: 25rem;
+  margin-block-end: 1rem;
 }
