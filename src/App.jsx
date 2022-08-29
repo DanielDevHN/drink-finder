@@ -1,22 +1,25 @@
 import { Container } from 'react-bootstrap'
 import Formulario from './components/Formulario'
 import { CategoriasProvider } from './context/CategoriasProvider'
+import { BebidasProvider } from './context/BebidasProvider'
 
 function App() {
 
   return (
     <CategoriasProvider>
-      <header className="py-5">
-        <h1>Buscador de Bebidas</h1>
-      </header>
+      <BebidasProvider>
+        <header className="py-5">
+          <h1>Buscador de Bebidas</h1>
+        </header>
 
-      <Container className="mt-5">
-        <Formulario />
-      </Container>
+        <Container className="mt-5">
+          <Formulario />
+        </Container>
 
-      <footer className="mt-5">
-        <p>Made with ❤ by Daniel Reyes</p>
-      </footer>
+        <footer className="mt-5">
+          <p>Made with ❤ by Daniel Reyes</p>
+        </footer>
+      </BebidasProvider>
     </CategoriasProvider>
   )
 }
