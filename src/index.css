@@ -8,9 +8,15 @@ header h1 {
   font-weight: 900;
 }
 footer {
+  /* Posicionar abajo */
+  position: relative;
+  bottom: 0;
+  margin-top: 1rem;
+  /* Ocupar todo el ancho disponible */
+  width: 100%;
+  min-height: 8vh;
   text-align: center;
 }
 footer p {
-  margin-top: 25rem;
   margin-block-end: 1rem;
 }
