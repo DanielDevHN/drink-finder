@@ -15,7 +15,7 @@ function App() {
       </Container>
 
       <footer className="mt-5">
-        <div>Made with ❤ by Daniel Reyes</div>
+        <p>Made with ❤ by Daniel Reyes</p>
       </footer>
     </CategoriasProvider>
   )
